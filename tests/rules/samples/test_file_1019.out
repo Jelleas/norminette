@@ -166,16 +166,11 @@ Error: FORBIDDEN_CHAR_NAME  (line:  28, col:   9):	user defined identifiers shou
 Error: COMMENT_ON_INSTR     (line:  35, col:  25):	Comment must be on its own line
 Error: COMMENT_ON_INSTR     (line:  41, col:  29):	Comment must be on its own line
 Error: COMMENT_ON_INSTR     (line:  42, col:  29):	Comment must be on its own line
-Error: TOO_MANY_FUNCS       (line:  46, col:   1):	Too many functions in file
 Error: GOTO_FBIDDEN         (line:  50, col:   1):	Goto statements are forbidden
 Error: LABEL_FBIDDEN        (line:  52, col:   1):	Label statements are forbidden
-Error: TOO_MANY_FUNCS       (line:  56, col:   1):	Too many functions in file
 Error: COMMENT_ON_INSTR     (line:  62, col:  47):	Comment must be on its own line
-Error: TOO_MANY_FUNCS       (line:  66, col:   1):	Too many functions in file
 Error: COMMENT_ON_INSTR     (line:  70, col:  32):	Comment must be on its own line
-Error: TOO_MANY_FUNCS       (line:  73, col:   1):	Too many functions in file
 Error: SPC_BEFORE_NL        (line:  73, col:  17):	Space before newline
-Error: TOO_MANY_FUNCS       (line:  78, col:   1):	Too many functions in file
 Error: SPC_BEFORE_NL        (line:  78, col:  17):	Space before newline
 Error: SPC_BEFORE_NL        (line:  79, col:   2):	Space before newline
 Error: SPC_BEFORE_NL        (line:  81, col:   2):	Space before newline

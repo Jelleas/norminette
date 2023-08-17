@@ -8,9 +8,9 @@ class CheckFunctionsCount(Rule):
 
     def run(self, context):
         """
-        Each file cannot contain more than 5 function
+        Each file cannot contain more than 15 functions
         """
         if context.scope is not None and context.scope.name == "GlobalScope":
-            if context.scope.functions > 5:
+            if context.scope.functions > 15:
                 context.new_error("TOO_MANY_FUNCS", context.peek_token(0))
         return False, 0
