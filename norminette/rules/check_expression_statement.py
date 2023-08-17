@@ -99,11 +99,9 @@ class CheckExpressionStatement(Rule):
                     is False
                 ):
                     context.new_error("SPACE_AFTER_KW", context.peek_token(i))
-                    pass
             if context.check_token(i, ["MULT", "BWISE_AND"]) is True and i > 0:
                 if context.check_token(i - 1, "IDENTIFIER") is True:
                     context.new_error("SPACE_AFTER_KW", context.peek_token(i - 1))
-                    pass
             if context.check_token(i, "RETURN") is True:
                 tmp = i + 1
                 tmp = context.skip_ws(tmp)

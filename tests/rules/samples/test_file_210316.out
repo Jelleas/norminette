@@ -57,6 +57,10 @@
 [36mtest_file_210316.c[0m - [32mIsAssignation[0m In "GlobalScope" from "None" line 38":
 		<MULT> <IDENTIFIER=result> <SPACE> <ASSIGN> <SPACE> <LPARENTHESIS> <IDENTIFIER=t_quaternion> <RPARENTHESIS> <LBRACE> <IDENTIFIER=r> <SPACE> <COLON> <SPACE> <CONSTANT=1> <COMMA> <SPACE> <IDENTIFIER=i> <SPACE> <COLON> <SPACE> <CONSTANT=0> <COMMA> <SPACE> <IDENTIFIER=j> <SPACE> <COLON> <SPACE> <CONSTANT=0> <COMMA> <SPACE> <IDENTIFIER=k> <SPACE> <COLON> <SPACE> <CONSTANT=0> <SPACE> <RBRACE> <SEMI_COLON> 
 test_file_210316.c: Error!
+Error: SPACE_AFTER_KW       (line:   3, col:  20):	Missing space after keyword
+Error: SPACE_AFTER_KW       (line:   3, col:  50):	Missing space after keyword
+Error: SPACE_AFTER_KW       (line:   4, col:  28):	Missing space after keyword
+Error: SPACE_AFTER_KW       (line:   4, col:  57):	Missing space after keyword
 Notice: GLOBAL_VAR_DETECTED  (line:   7, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
 Notice: GLOBAL_VAR_DETECTED  (line:  20, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
 Notice: GLOBAL_VAR_DETECTED  (line:  34, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
