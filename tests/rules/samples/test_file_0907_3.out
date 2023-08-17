@@ -446,8 +446,6 @@ Error: MULT_ASSIGN_LINE     (line:  15, col:  17):	Multiple assignations on a si
 Error: MULT_ASSIGN_LINE     (line:  15, col:  24):	Multiple assignations on a single line
 Error: MULT_ASSIGN_LINE     (line:  15, col:  31):	Multiple assignations on a single line
 Error: TAB_INSTEAD_SPC      (line:  19, col:  16):	Found tab when expecting space
-Error: WRONG_SCOPE_COMMENT  (line:  19, col:  17):	Comment is invalid in this scope
-Error: WRONG_SCOPE_COMMENT  (line:  19, col:  17):	Comment is invalid in this scope
 Error: EMPTY_LINE_FUNCTION  (line:  22, col:   1):	Empty line in function
 Error: ASSIGN_IN_CONTROL    (line:  23, col:  16):	Assignment in control structure
 Error: FORBIDDEN_CS         (line:  24, col:   9):	Forbidden control structure
@@ -496,7 +494,6 @@ Error: SPC_AFTER_OPERATOR   (line:  65, col:  87):	missing space after operator
 Error: SPC_BFR_OPERATOR     (line:  65, col:  87):	missing space before operator
 Error: ASSIGN_IN_CONTROL    (line:  66, col:  19):	Assignment in control structure
 Error: EMPTY_LINE_FUNCTION  (line:  68, col:   1):	Empty line in function
-Error: WRONG_SCOPE_COMMENT  (line:  69, col:   5):	Comment is invalid in this scope
 Error: EMPTY_LINE_FUNCTION  (line:  71, col:   1):	Empty line in function
 Error: ASSIGN_IN_CONTROL    (line:  72, col:  17):	Assignment in control structure
 Error: NO_SPC_AFR_PAR       (line:  72, col:  49):	Extra space after parenthesis (brace/bracket)
@@ -507,10 +504,8 @@ Error: TOO_MANY_INSTR       (line:  79, col:   7):	Too many instructions on a si
 Error: TOO_FEW_TAB          (line:  79, col:  12):	Missing tabs for indent level
 Error: EMPTY_LINE_FUNCTION  (line:  83, col:   1):	Empty line in function
 Error: EMPTY_LINE_FUNCTION  (line:  86, col:   1):	Empty line in function
-Error: WRONG_SCOPE_COMMENT  (line:  92, col:   9):	Comment is invalid in this scope
 Error: NO_SPC_AFR_PAR       (line:  93, col:  20):	Extra space after parenthesis (brace/bracket)
 Error: TOO_FEW_TAB          (line:  93, col:  22):	Missing tabs for indent level
-Error: WRONG_SCOPE_COMMENT  (line:  96, col:  13):	Comment is invalid in this scope
 Error: NO_SPC_AFR_PAR       (line:  97, col:  24):	Extra space after parenthesis (brace/bracket)
 Error: TOO_FEW_TAB          (line:  97, col:  26):	Missing tabs for indent level
 Error: NO_SPC_BFR_OPR       (line: 100, col:  28):	extra space before operator
