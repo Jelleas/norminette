@@ -447,7 +447,6 @@ Error: MULT_ASSIGN_LINE     (line:  15, col:  24):	Multiple assignations on a si
 Error: MULT_ASSIGN_LINE     (line:  15, col:  31):	Multiple assignations on a single line
 Error: TAB_INSTEAD_SPC      (line:  19, col:  16):	Found tab when expecting space
 Error: COMMENT_ON_INSTR     (line:  19, col:  17):	Comment must be on its own line
-Error: EMPTY_LINE_FUNCTION  (line:  22, col:   1):	Empty line in function
 Error: ASSIGN_IN_CONTROL    (line:  23, col:  16):	Assignment in control structure
 Error: FORBIDDEN_CS         (line:  24, col:   9):	Forbidden control structure
 Error: SPACE_AFTER_KW       (line:  24, col:   9):	Missing space after keyword
@@ -477,7 +476,6 @@ Error: FORBIDDEN_CS         (line:  51, col:  13):	Forbidden control structure
 Error: TOO_FEW_TAB          (line:  52, col:   1):	Missing tabs for indent level
 Error: SPACE_AFTER_KW       (line:  52, col:  13):	Missing space after keyword
 Error: TOO_FEW_TAB          (line:  53, col:   1):	Missing tabs for indent level
-Error: EMPTY_LINE_FUNCTION  (line:  57, col:   1):	Empty line in function
 Error: BRACE_SHOULD_EOL     (line:  63, col:   6):	Expected newline after brace
 Error: TOO_FEW_TAB          (line:  63, col:   7):	Missing tabs for indent level
 Error: TOO_MANY_INSTR       (line:  63, col:   7):	Too many instructions on a single line
@@ -494,8 +492,6 @@ Error: LINE_TOO_LONG        (line:  65, col:  87):	line too long
 Error: SPC_AFTER_OPERATOR   (line:  65, col:  87):	missing space after operator
 Error: SPC_BFR_OPERATOR     (line:  65, col:  87):	missing space before operator
 Error: ASSIGN_IN_CONTROL    (line:  66, col:  19):	Assignment in control structure
-Error: EMPTY_LINE_FUNCTION  (line:  68, col:   1):	Empty line in function
-Error: EMPTY_LINE_FUNCTION  (line:  71, col:   1):	Empty line in function
 Error: ASSIGN_IN_CONTROL    (line:  72, col:  17):	Assignment in control structure
 Error: NO_SPC_AFR_PAR       (line:  72, col:  49):	Extra space after parenthesis (brace/bracket)
 Error: TOO_FEW_TAB          (line:  72, col:  51):	Missing tabs for indent level
@@ -503,8 +499,6 @@ Error: BRACE_SHOULD_EOL     (line:  79, col:   6):	Expected newline after brace
 Error: TOO_FEW_TAB          (line:  79, col:   7):	Missing tabs for indent level
 Error: TOO_MANY_INSTR       (line:  79, col:   7):	Too many instructions on a single line
 Error: TOO_FEW_TAB          (line:  79, col:  12):	Missing tabs for indent level
-Error: EMPTY_LINE_FUNCTION  (line:  83, col:   1):	Empty line in function
-Error: EMPTY_LINE_FUNCTION  (line:  86, col:   1):	Empty line in function
 Error: NO_SPC_AFR_PAR       (line:  93, col:  20):	Extra space after parenthesis (brace/bracket)
 Error: TOO_FEW_TAB          (line:  93, col:  22):	Missing tabs for indent level
 Error: NO_SPC_AFR_PAR       (line:  97, col:  24):	Extra space after parenthesis (brace/bracket)
@@ -514,10 +508,8 @@ Error: NO_SPC_AFR_PAR       (line: 100, col:  36):	Extra space after parenthesis
 Error: NO_SPC_BFR_OPR       (line: 100, col:  38):	extra space before operator
 Error: NO_SPC_AFR_PAR       (line: 100, col:  43):	Extra space after parenthesis (brace/bracket)
 Error: TOO_FEW_TAB          (line: 100, col:  45):	Missing tabs for indent level
-Error: EMPTY_LINE_FUNCTION  (line: 116, col:   1):	Empty line in function
 Error: NO_SPC_AFR_PAR       (line: 118, col:  18):	Extra space after parenthesis (brace/bracket)
 Error: TOO_FEW_TAB          (line: 118, col:  20):	Missing tabs for indent level
-Error: EMPTY_LINE_FUNCTION  (line: 127, col:   1):	Empty line in function
 Error: MULT_ASSIGN_LINE     (line: 128, col:  18):	Multiple assignations on a single line
 Error: NO_SPC_AFR_PAR       (line: 156, col:  50):	Extra space after parenthesis (brace/bracket)
 Error: TOO_FEW_TAB          (line: 156, col:  52):	Missing tabs for indent level

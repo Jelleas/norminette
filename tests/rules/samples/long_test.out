@@ -144,7 +144,6 @@
 		<MULT> <MULT> <MULT> <IDENTIFIER=func4> <LPARENTHESIS> <IDENTIFIER=udidf> <SPACE> <IDENTIFIER=fdfd> <RPARENTHESIS> <SEMI_COLON> <NEWLINE>
 long_test.c: Error!
 Error: TOO_MANY_TAB         (line:   4, col:   1):	Extra tabs for indent level
-Error: EMPTY_LINE_FUNCTION  (line:   5, col:   1):	Empty line in function
 Error: SPACE_EMPTY_LINE     (line:   5, col:   1):	Space on empty line
 Error: TOO_FEW_TAB          (line:   6, col:   1):	Missing tabs for indent level
 Error: NO_ARGS_VOID         (line:  10, col:  13):	Empty function argument requires void
