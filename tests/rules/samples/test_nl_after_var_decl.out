@@ -135,8 +135,6 @@
 [36mtest_nl_after_var_decl.c[0m - [32mIsBlockEnd[0m In "Function" from "GlobalScope" line 58":
 		<RBRACE> <NEWLINE>
 test_nl_after_var_decl.c: Error!
-Error: NL_AFTER_VAR_DECL    (line:   4, col:   1):	Variable declarations must be followed by a newline
-Error: NL_AFTER_VAR_DECL    (line:  12, col:   1):	Variable declarations must be followed by a newline
 Error: BRACE_SHOULD_EOL     (line:  12, col:   5):	Expected newline after brace
 Error: TOO_FEW_TAB          (line:  12, col:   6):	Missing tabs for indent level
 Error: BRACE_SHOULD_EOL     (line:  12, col:   7):	Expected newline after brace
@@ -147,16 +145,11 @@ Error: TOO_FEW_TAB          (line:  12, col:  19):	Missing tabs for indent level
 Error: TOO_MANY_INSTR       (line:  12, col:  19):	Too many instructions on a single line
 Error: TOO_FEW_TAB          (line:  12, col:  20):	Missing tabs for indent level
 Error: TOO_MANY_INSTR       (line:  12, col:  20):	Too many instructions on a single line
-Error: NL_AFTER_VAR_DECL    (line:  18, col:   1):	Variable declarations must be followed by a newline
-Error: NL_AFTER_VAR_DECL    (line:  24, col:   1):	Variable declarations must be followed by a newline
 Error: MULT_DECL_LINE       (line:  32, col:  10):	Multiple declarations on a single line
 Error: MULT_DECL_LINE       (line:  32, col:  13):	Multiple declarations on a single line
-Error: NL_AFTER_VAR_DECL    (line:  33, col:   1):	Variable declarations must be followed by a newline
 Error: TOO_MANY_FUNCS       (line:  38, col:   1):	Too many functions in file
-Error: NL_AFTER_VAR_DECL    (line:  41, col:   1):	Variable declarations must be followed by a newline
 Error: TOO_FEW_TAB          (line:  43, col:   1):	Missing tabs for indent level
 Error: TOO_MANY_FUNCS       (line:  47, col:   1):	Too many functions in file
-Error: NL_AFTER_VAR_DECL    (line:  50, col:   1):	Variable declarations must be followed by a newline
 Error: BRACE_SHOULD_EOL     (line:  50, col:   5):	Expected newline after brace
 Error: BRACE_SHOULD_EOL     (line:  50, col:   6):	Expected newline after brace
 Error: TOO_FEW_TAB          (line:  50, col:   6):	Missing tabs for indent level
@@ -169,7 +162,6 @@ Error: TOO_MANY_INSTR       (line:  50, col:  15):	Too many instructions on a si
 Error: TOO_FEW_TAB          (line:  50, col:  16):	Missing tabs for indent level
 Error: TOO_MANY_INSTR       (line:  50, col:  16):	Too many instructions on a single line
 Error: TOO_MANY_FUNCS       (line:  53, col:   1):	Too many functions in file
-Error: NL_AFTER_VAR_DECL    (line:  56, col:   1):	Variable declarations must be followed by a newline
 Error: BRACE_SHOULD_EOL     (line:  56, col:   5):	Expected newline after brace
 Error: TOO_FEW_TAB          (line:  56, col:   6):	Missing tabs for indent level
 Error: TOO_MANY_INSTR       (line:  56, col:   6):	Too many instructions on a single line

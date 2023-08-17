@@ -31,7 +31,6 @@ class CheckEmptyLine(Rule):
                     ):
                         pass
                     else:
-                        context.new_error("NL_AFTER_VAR_DECL", context.peek_token(i))
                         return True, i
         if (
             len(context.history) > 1
