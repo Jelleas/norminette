@@ -1,7 +1,13 @@
 from norminette.rules import Rule
 
 
-forbidden_cs = ["FOR", "SWITCH", "CASE", "GOTO"]
+forbidden_cs = [
+#    "FOR",
+    "SWITCH",
+    "CASE",
+    "GOTO"
+]
+
 assigns = [
     "RIGHT_ASSIGN",
     "LEFT_ASSIGN",
@@ -23,6 +29,7 @@ class CheckControlStatement(Rule):
         self.depends_on = ["IsControlStatement"]
 
     def check_nest(self, context, i):
+        is_for_loop = context.check_token(context.skip_ws(0, nl=False), "FOR")
         depth = 1
         i += 1
         while depth > 0:
@@ -30,7 +37,7 @@ class CheckControlStatement(Rule):
                 depth += 1
             if context.check_token(i, "RPARENTHESIS") is True:
                 depth -= 1
-            if context.check_token(i, assigns) is True:
+            if not is_for_loop and context.check_token(i, assigns) is True:
                 context.new_error("ASSIGN_IN_CONTROL", context.peek_token(i))
                 return -1
             if context.check_token(i, forbidden_cs) is True:
@@ -48,11 +55,12 @@ class CheckControlStatement(Rule):
             - Goto
         Assignations must be done outside of control structures
         """
+        is_for_loop = context.check_token(context.skip_ws(0, nl=False), "FOR")
         i = 0
         if context.scope.name == "GlobalScope":
             context.new_error("WRONG_SCOPE", context.peek_token(0))
         while context.check_token(i, "NEWLINE") is False:
-            if context.check_token(i, "SEMI_COLON") is True:
+            if not is_for_loop and context.check_token(i, "SEMI_COLON") is True:
                 context.new_error("EXP_NEWLINE", context.peek_token(i))
                 return True, i
             if context.check_token(i, forbidden_cs) is True:

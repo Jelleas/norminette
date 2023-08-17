@@ -513,7 +513,6 @@ Error: TOO_FEW_TAB          (line:  93, col:  22):	Missing tabs for indent level
 Error: WRONG_SCOPE_COMMENT  (line:  96, col:  13):	Comment is invalid in this scope
 Error: NO_SPC_AFR_PAR       (line:  97, col:  24):	Extra space after parenthesis (brace/bracket)
 Error: TOO_FEW_TAB          (line:  97, col:  26):	Missing tabs for indent level
-Error: FORBIDDEN_CS         (line: 100, col:  17):	Forbidden control structure
 Error: NO_SPC_BFR_OPR       (line: 100, col:  28):	extra space before operator
 Error: NO_SPC_AFR_PAR       (line: 100, col:  36):	Extra space after parenthesis (brace/bracket)
 Error: NO_SPC_BFR_OPR       (line: 100, col:  38):	extra space before operator
