@@ -35,6 +35,41 @@ kw = [
     "WHILE",
 ]
 
+kw_subset = [
+    # subset of C reserved keywords that should have a space 
+    "AUTO",
+    # "BREAK",
+    "CASE",
+    "CHAR",
+    "CONST",
+    # "CONTINUE",
+    "DEFAULT",
+    "DO",
+    "DOUBLE",
+    "ELSE",
+    "ENUM",
+    "EXTERN",
+    "FLOAT",
+    "FOR",
+    "GOTO",
+    "IF",
+    "INT",
+    "LONG",
+    "REGISTER",
+    "RETURN",
+    "SHORT",
+    "SIGNED",
+    "STATIC",
+    "STRUCT",
+    "SWITCH",
+    "TYPEDEF",
+    "UNION",
+    "UNSIGNED",
+    "VOID",
+    "VOLATILE",
+    "WHILE",
+]
+
 
 class CheckExpressionStatement(Rule):
     def __init__(self):
@@ -55,7 +90,7 @@ class CheckExpressionStatement(Rule):
         """
         i = 0
         while context.check_token(i, ["SEMI_COLON", "NEWLINE"]) is False:
-            if context.check_token(i, kw) is True:
+            if context.check_token(i, kw_subset) is True:
                 if (
                     context.check_token(
                         i + 1,
@@ -63,11 +98,11 @@ class CheckExpressionStatement(Rule):
                     )
                     is False
                 ):
-                    # context.new_error("SPACE_AFTER_KW", context.peek_token(i))
+                    context.new_error("SPACE_AFTER_KW", context.peek_token(i))
                     pass
             if context.check_token(i, ["MULT", "BWISE_AND"]) is True and i > 0:
                 if context.check_token(i - 1, "IDENTIFIER") is True:
-                    # context.new_error("SPACE_AFTER_KW", context.peek_token(i - 1))
+                    context.new_error("SPACE_AFTER_KW", context.peek_token(i - 1))
                     pass
             if context.check_token(i, "RETURN") is True:
                 tmp = i + 1
