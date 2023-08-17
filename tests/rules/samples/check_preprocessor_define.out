@@ -76,6 +76,8 @@ Error: MACRO_NAME_CAPITAL   (line:   6, col:  13):	Macro name must be capitalize
 Error: CONSECUTIVE_WS       (line:   7, col:   8):	Two or more consecutives white spaces
 Error: TAB_REPLACE_SPACE    (line:   7, col:   9):	Found tab when expecting space
 Error: CONSECUTIVE_NEWLINES (line:   9, col:   1):	Consecutive newlines
+Error: COMMENT_ON_INSTR     (line:  11, col:   7):	Comment must be on its own line
+Error: COMMENT_ON_INSTR     (line:  17, col:  26):	Comment must be on its own line
 Error: PREPROC_CONSTANT     (line:  19, col:  24):	Preprocessor statement must only contain constant defines
 Error: PREPROC_CONSTANT     (line:  20, col:  15):	Preprocessor statement must only contain constant defines
 Error: PREPROC_CONSTANT     (line:  22, col:  13):	Preprocessor statement must only contain constant defines

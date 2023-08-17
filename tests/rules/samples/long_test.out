@@ -175,6 +175,7 @@ Error: RETURN_PARENTHESIS   (line:  31, col:  48):	Return value must be in paren
 Error: TOO_MANY_INSTR       (line:  31, col:  52):	Too many instructions on a single line
 Notice: GLOBAL_VAR_DETECTED  (line:  33, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
 Error: GLOBAL_VAR_NAMING    (line:  33, col:   7):	Global variable must start with g_
+Error: COMMENT_ON_INSTR     (line:  33, col:  17):	Comment must be on its own line
 Notice: GLOBAL_VAR_DETECTED  (line:  34, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
 Error: GLOBAL_VAR_NAMING    (line:  34, col:   9):	Global variable must start with g_
 Notice: GLOBAL_VAR_DETECTED  (line:  38, col:   1):	Global variable present in file. Make sure it is a reasonable choice.

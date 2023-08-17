@@ -37,4 +37,9 @@
 		<COMMENT=// single line comment> <NEWLINE>
 [36mtest_file_210128.c[0m - [32mIsBlockEnd[0m In "Function" from "GlobalScope" line 19":
 		<RBRACE> <NEWLINE>
-test_file_210128.c: OK!
+test_file_210128.c: Error!
+Error: COMMENT_ON_INSTR     (line:   1, col:  15):	Comment must be on its own line
+Error: COMMENT_ON_INSTR     (line:   5, col:  14):	Comment must be on its own line
+Error: COMMENT_ON_INSTR     (line:   5, col:  63):	Comment must be on its own line
+Error: COMMENT_ON_INSTR     (line:  12, col:  36):	Comment must be on its own line
+Error: COMMENT_ON_INSTR     (line:  18, col:  17):	Comment must be on its own line
