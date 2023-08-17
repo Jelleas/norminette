@@ -79,7 +79,6 @@
 [36minteger_constants.c[0m - [32mIsEmptyLine[0m In "GlobalScope" from "None" line 40":
 		<NEWLINE>
 integer_constants.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
 Error: DECL_ASSIGN_LINE     (line:   3, col:  33):	Declaration and assignation on a single line
 Error: DECL_ASSIGN_LINE     (line:   4, col:  34):	Declaration and assignation on a single line
 Error: DECL_ASSIGN_LINE     (line:   5, col:  34):	Declaration and assignation on a single line

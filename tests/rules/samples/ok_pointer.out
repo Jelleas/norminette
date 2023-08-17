@@ -12,5 +12,4 @@
 		<TAB> <RETURN> <SPACE> <SEMI_COLON> <NEWLINE>
 [36mok_pointer.c[0m - [32mIsBlockEnd[0m In "Function" from "GlobalScope" line 7":
 		<RBRACE> <NEWLINE>
-ok_pointer.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
+ok_pointer.c: OK!

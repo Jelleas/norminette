@@ -18,5 +18,4 @@
 		<TAB> <RETURN> <SPACE> <LPARENTHESIS> <CONSTANT=2> <SPACE> <PLUS> <SPACE> <MULT> <IDENTIFIER=tptp> <RPARENTHESIS> <SEMI_COLON> <NEWLINE>
 [36mok_cs_indent.c[0m - [32mIsBlockEnd[0m In "Function" from "GlobalScope" line 10":
 		<RBRACE> <NEWLINE>
-ok_cs_indent.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
+ok_cs_indent.c: OK!

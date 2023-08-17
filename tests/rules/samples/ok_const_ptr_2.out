@@ -36,5 +36,4 @@
 		<NEWLINE>
 [36mok_const_ptr_2.h[0m - [32mIsPreprocessorStatement[0m In "GlobalScope" from "None" line 19":
 		<HASH> <IDENTIFIER=endif> <NEWLINE>
-ok_const_ptr_2.h: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
+ok_const_ptr_2.h: OK!

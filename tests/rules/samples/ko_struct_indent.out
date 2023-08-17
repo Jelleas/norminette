@@ -29,7 +29,6 @@
 [36mko_struct_indent.c[0m - [32mIsBlockEnd[0m In "Function" from "GlobalScope" line 15":
 		<RBRACE> <NEWLINE>
 ko_struct_indent.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
 Notice: GLOBAL_VAR_DETECTED  (line:   2, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
 Error: GLOBAL_VAR_NAMING    (line:   2, col:  29):	Global variable must start with g_
 Error: MISALIGNED_VAR_DECL  (line:   2, col:  29):	Misaligned variable declaration

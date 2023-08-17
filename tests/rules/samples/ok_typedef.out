@@ -32,5 +32,4 @@
 		<TAB> <STRUCT> <SPACE> <IDENTIFIER=s_type> <TAB> <IDENTIFIER=toto> <SEMI_COLON> <NEWLINE>
 [36mok_typedef.c[0m - [32mIsBlockEnd[0m In "Function" from "GlobalScope" line 17":
 		<RBRACE> <NEWLINE>
-ok_typedef.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
+ok_typedef.c: OK!

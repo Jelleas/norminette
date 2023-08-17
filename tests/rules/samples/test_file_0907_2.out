@@ -228,5 +228,4 @@
 		<NEWLINE>
 [36mtest_file_0907_2.h[0m - [32mIsPreprocessorStatement[0m In "GlobalScope" from "None" line 143":
 		<HASH> <IDENTIFIER=endif> <NEWLINE>
-test_file_0907_2.h: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
+test_file_0907_2.h: OK!

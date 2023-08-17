@@ -67,7 +67,6 @@
 [36mcheck_preprocessor_define.c[0m - [32mIsPreprocessorStatement[0m In "GlobalScope" from "None" line 35":
 		<HASH> <IDENTIFIER=define> <SPACE> <IDENTIFIER=B> <SPACE> <CHAR_CONST='a'> 
 check_preprocessor_define.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
 Error: MACRO_NAME_CAPITAL   (line:   1, col:   9):	Macro name must be capitalized
 Error: MACRO_NAME_CAPITAL   (line:   3, col:   9):	Macro name must be capitalized
 Error: CONSECUTIVE_WS       (line:   5, col:   8):	Two or more consecutives white spaces

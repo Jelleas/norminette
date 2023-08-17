@@ -218,7 +218,6 @@
 [36mtest_file_210923.c[0m - [32mIsBlockEnd[0m In "Function" from "GlobalScope" line 107":
 		<RBRACE> <NEWLINE>
 test_file_210923.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
 Error: MULT_ASSIGN_LINE     (line:   6, col:  16):	Multiple assignations on a single line
 Error: INCLUDE_START_FILE   (line:   9, col:   1):	Include must be at the start of file
 Error: TOO_FEW_TAB          (line:  15, col:  13):	Missing tabs for indent level

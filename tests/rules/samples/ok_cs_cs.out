@@ -10,5 +10,4 @@
 		<TAB> <BREAK> <SPACE> <SEMI_COLON> <NEWLINE>
 [36mok_cs_cs.c[0m - [32mIsBlockEnd[0m In "Function" from "GlobalScope" line 6":
 		<RBRACE> <NEWLINE>
-ok_cs_cs.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
+ok_cs_cs.c: OK!

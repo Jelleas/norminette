@@ -135,7 +135,6 @@
 [36mtest_nl_after_var_decl.c[0m - [32mIsBlockEnd[0m In "Function" from "GlobalScope" line 58":
 		<RBRACE> <NEWLINE>
 test_nl_after_var_decl.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
 Error: NL_AFTER_VAR_DECL    (line:   4, col:   1):	Variable declarations must be followed by a newline
 Error: NL_AFTER_VAR_DECL    (line:  12, col:   1):	Variable declarations must be followed by a newline
 Error: BRACE_SHOULD_EOL     (line:  12, col:   5):	Expected newline after brace

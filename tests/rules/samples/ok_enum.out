@@ -10,5 +10,4 @@
 		<TAB> <IDENTIFIER=TITI> <COMMA> <NEWLINE>
 [36mok_enum.c[0m - [32mIsBlockEnd[0m In "UserDefinedEnum" from "GlobalScope" line 6":
 		<RBRACE> <TAB> <IDENTIFIER=t_toto> <SEMI_COLON> <NEWLINE>
-ok_enum.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
+ok_enum.c: OK!

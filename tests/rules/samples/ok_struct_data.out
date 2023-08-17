@@ -20,5 +20,4 @@
 		<TAB> <IDENTIFIER=i> <PTR> <IDENTIFIER=c> <SPACE> <ASSIGN> <SPACE> <IDENTIFIER=i> <PTR> <IDENTIFIER=c> <SPACE> <MULT> <SPACE> <IDENTIFIER=i> <PTR> <LPARENTHESIS> <MULT> <IDENTIFIER=d> <RPARENTHESIS> <SEMI_COLON> <NEWLINE>
 [36mok_struct_data.c[0m - [32mIsBlockEnd[0m In "Function" from "GlobalScope" line 11":
 		<RBRACE> <NEWLINE>
-ok_struct_data.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
+ok_struct_data.c: OK!

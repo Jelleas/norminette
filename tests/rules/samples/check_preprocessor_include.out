@@ -23,7 +23,6 @@
 [36mcheck_preprocessor_include.c[0m - [32mIsPreprocessorStatement[0m In "GlobalScope" from "None" line 12":
 		<HASH> <IDENTIFIER=endif> 
 check_preprocessor_include.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
 Error: INCLUDE_HEADER_ONLY  (line:   2, col:  10):	.c file includes are forbidden
 Error: INCLUDE_HEADER_ONLY  (line:   3, col:  10):	.c file includes are forbidden
 Error: CONSECUTIVE_NEWLINES (line:   5, col:   1):	Consecutive newlines

@@ -22,6 +22,4 @@
 		<TAB> <LPARENTHESIS> <MULT> <IDENTIFIER=func_pointer> <RPARENTHESIS> <LPARENTHESIS> <IDENTIFIER=arg1> <COMMA> <SPACE> <IDENTIFIER=arg2> <RPARENTHESIS> <SEMI_COLON> <NEWLINE>
 [36mok_func_ptr.c[0m - [32mIsBlockEnd[0m In "Function" from "GlobalScope" line 11":
 		<RBRACE> <NEWLINE>
-ok_func_ptr.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
-Notice: GLOBAL_VAR_DETECTED  (line:   2, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
+ok_func_ptr.c: OK!

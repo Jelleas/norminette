@@ -25,7 +25,6 @@
 [36mok_const_ptr_1.c[0m - [32mIsBlockEnd[0m In "Function" from "GlobalScope" line 13":
 		<RBRACE> <NEWLINE>
 ok_const_ptr_1.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
 Error: TOO_MANY_VARS_FUNC   (line:   8, col:   1):	Too many variables declarations in a function
 Error: TOO_MANY_VARS_FUNC   (line:   9, col:   1):	Too many variables declarations in a function
 Error: TOO_MANY_VARS_FUNC   (line:  10, col:   1):	Too many variables declarations in a function

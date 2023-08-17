@@ -86,5 +86,4 @@
 		<TAB> <INT> <TAB> <IDENTIFIER=f4> <SEMI_COLON> <NEWLINE>
 [36mok_var_name.c[0m - [32mIsBlockEnd[0m In "Function" from "GlobalScope" line 44":
 		<RBRACE> <NEWLINE>
-ok_var_name.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
+ok_var_name.c: OK!

@@ -16,7 +16,6 @@
 		<RBRACE> <NEWLINE>
 ko_too_many_instruction.c: Error!
 Notice: GLOBAL_VAR_DETECTED  (line:   1, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
 Notice: GLOBAL_VAR_DETECTED  (line:   1, col:  10):	Global variable present in file. Make sure it is a reasonable choice.
 Error: TOO_MANY_INSTR       (line:   1, col:  10):	Too many instructions on a single line
 Error: MISALIGNED_VAR_DECL  (line:   1, col:  17):	Misaligned variable declaration

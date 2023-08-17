@@ -28,5 +28,4 @@
 		<NEWLINE>
 [36mtestfile_210108.h[0m - [32mIsPreprocessorStatement[0m In "GlobalScope" from "None" line 15":
 		<HASH> <IDENTIFIER=endif> 
-testfile_210108.h: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
+testfile_210108.h: OK!

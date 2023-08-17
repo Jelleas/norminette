@@ -12,5 +12,4 @@
 		<TAB> <IDENTIFIER=fourth_enum> <SPACE> <ASSIGN> <SPACE> <CONSTANT=42> <NEWLINE>
 [36mtest_file_1116_1.c[0m - [32mIsBlockEnd[0m In "UserDefinedEnum" from "GlobalScope" line 7":
 		<RBRACE> <SEMI_COLON> 
-test_file_1116_1.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
+test_file_1116_1.c: OK!

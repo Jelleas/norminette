@@ -29,7 +29,6 @@
 [36mko_struct_name.c[0m - [32mIsBlockEnd[0m In "Function" from "GlobalScope" line 15":
 		<RBRACE> <NEWLINE>
 ko_struct_name.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
 Error: USER_DEFINED_TYPEDEF (line:   1, col:  25):	User defined typedef must start with t_
 Notice: GLOBAL_VAR_DETECTED  (line:   2, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
 Error: GLOBAL_VAR_NAMING    (line:   2, col:  25):	Global variable must start with g_

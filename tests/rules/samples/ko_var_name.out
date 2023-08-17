@@ -4,7 +4,6 @@
 		<INT> <SPACE> <IDENTIFIER=NotValidEither> <SEMI_COLON> <NEWLINE>
 ko_var_name.c: Error!
 Notice: GLOBAL_VAR_DETECTED  (line:   1, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
 Error: SPACE_REPLACE_TAB    (line:   1, col:   4):	Found space when expecting tab
 Error: FORBIDDEN_CHAR_NAME  (line:   1, col:   5):	user defined identifiers should contain only lowercase characters, digits or '_'
 Error: GLOBAL_VAR_NAMING    (line:   1, col:   5):	Global variable must start with g_

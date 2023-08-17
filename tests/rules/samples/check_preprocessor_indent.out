@@ -141,7 +141,6 @@ printf
 [36mcheck_preprocessor_indent.c[0m - [32mIsPreprocessorStatement[0m In "GlobalScope" from "None" line 74":
 		<HASH> <IDENTIFIER=endif> 
 check_preprocessor_indent.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
 Error: TOO_MANY_WS          (line:   1, col:   1):	Extra whitespaces for indent level
 Error: PREPROC_BAD_INDENT   (line:   3, col:   1):	Bad preprocessor indentation
 Error: PREPROC_BAD_INDENT   (line:   4, col:   1):	Bad preprocessor indentation

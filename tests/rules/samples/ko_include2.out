@@ -11,7 +11,6 @@
 [36mko_include2.c[0m - [32mIsPreprocessorStatement[0m In "GlobalScope" from "None" line 6":
 		<HASH> <IDENTIFIER=include> <TAB> <TAB> <LESS_THAN> <IDENTIFIER=unistd> <DOT> <IDENTIFIER=h> <MORE_THAN> <NEWLINE>
 ko_include2.c: Error!
-Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
 Error: PREPROC_NO_SPACE     (line:   1, col:   9):	Missing space after preprocessor directive
 Error: TAB_REPLACE_SPACE    (line:   2, col:   9):	Found tab when expecting space
 Error: CONSECUTIVE_WS       (line:   3, col:   9):	Two or more consecutives white spaces
