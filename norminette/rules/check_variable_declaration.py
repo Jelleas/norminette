@@ -23,7 +23,6 @@ class CheckVariableDeclaration(Rule):
     def run(self, context):
         """
         Variables can be declared as global or in the scope of a function
-        Only static variables, global variables, and constants can be initialised at declaration.
         Each variable must be declared on a separate line
         """
         i = 0
@@ -72,7 +71,7 @@ class CheckVariableDeclaration(Rule):
                 if context.scope.name == "GlobalScope":
                     i += 1
                     continue
-                context.new_error("DECL_ASSIGN_LINE", context.peek_token(i))
+                #context.new_error("DECL_ASSIGN_LINE", context.peek_token(i))
             if context.check_token(i, "COMMA") is True and passed_assign is False:
                 context.new_error("MULT_DECL_LINE", context.peek_token(i))
             i += 1

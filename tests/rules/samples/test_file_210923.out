@@ -235,16 +235,10 @@ Error: TOO_MANY_FUNCS       (line:  66, col:   1):	Too many functions in file
 Error: LINE_TOO_LONG        (line:  70, col:  84):	line too long
 Error: TOO_MANY_FUNCS       (line:  73, col:   1):	Too many functions in file
 Error: SPC_AFTER_POINTER    (line:  75, col:  11):	space after pointer
-Error: DECL_ASSIGN_LINE     (line:  75, col:  24):	Declaration and assignation on a single line
 Error: SPC_AFTER_POINTER    (line:  76, col:  11):	space after pointer
-Error: DECL_ASSIGN_LINE     (line:  76, col:  24):	Declaration and assignation on a single line
 Error: SPC_AFTER_POINTER    (line:  77, col:  11):	space after pointer
-Error: DECL_ASSIGN_LINE     (line:  77, col:  24):	Declaration and assignation on a single line
 Error: SPC_AFTER_POINTER    (line:  78, col:  11):	space after pointer
-Error: DECL_ASSIGN_LINE     (line:  78, col:  24):	Declaration and assignation on a single line
 Error: SPC_AFTER_POINTER    (line:  79, col:  11):	space after pointer
-Error: DECL_ASSIGN_LINE     (line:  79, col:  24):	Declaration and assignation on a single line
 Error: TOO_MANY_VARS_FUNC   (line:  80, col:   1):	Too many variables declarations in a function
 Error: SPC_AFTER_POINTER    (line:  80, col:  11):	space after pointer
-Error: DECL_ASSIGN_LINE     (line:  80, col:  24):	Declaration and assignation on a single line
 Error: TOO_MANY_FUNCS       (line:  83, col:   1):	Too many functions in file
