@@ -36,9 +36,11 @@ class CheckVariableDeclaration(Rule):
                 context.history[-2] != "IsBlockStart"
                 and context.history[-2] != "IsVarDeclaration"
             ):
-                context.new_error("VAR_DECL_START_FUNC", context.peek_token(i))
+                pass
+                # context.new_error("VAR_DECL_START_FUNC", context.peek_token(i))
             elif context.scope.vdeclarations_allowed is False:
-                context.new_error("VAR_DECL_START_FUNC", context.peek_token(i))
+                # context.new_error("VAR_DECL_START_FUNC", context.peek_token(i))
+                pass
             elif context.scope.vdeclarations_allowed is None:
                 context.scope.vdeclarations_allowed = True
         elif (
