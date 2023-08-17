@@ -37,5 +37,4 @@
 [36mtest_file_210412.c[0m - [32mIsBlockEnd[0m In "Function" from "GlobalScope" line 21":
 		<RBRACE> 
 test_file_210412.c: Error!
-Error: SPACE_BEFORE_FUNC    (line:  14, col:   4):	space before function name
 Error: BRACE_SHOULD_EOL     (line:  21, col:   1):	Expected newline after brace
