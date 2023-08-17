@@ -46,7 +46,6 @@ Error: TOO_FEW_TAB          (line:   4, col:  15):	Missing tabs for indent level
 Error: TOO_MANY_INSTR       (line:   4, col:  15):	Too many instructions on a single line
 Error: NO_SPC_AFR_PAR       (line:   5, col:  16):	Extra space after parenthesis (brace/bracket)
 Error: TAB_INSTEAD_SPC      (line:   5, col:  17):	Found tab when expecting space
-Error: SPACE_AFTER_KW       (line:   6, col:   9):	Missing space after keyword
 Error: TAB_INSTEAD_SPC      (line:   8, col:  11):	Found tab when expecting space
 Error: TOO_FEW_TAB          (line:  10, col:  16):	Missing tabs for indent level
 Error: TOO_FEW_TAB          (line:  10, col:  16):	Missing tabs for indent level
