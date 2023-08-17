@@ -424,7 +424,6 @@
 		<RBRACE> 
 test_file_0907_3.c: Error!
 Error: MIXED_SPACE_TAB      (line:   4, col:  19):	Mixed spaces and tabs
-Error: SPACE_REPLACE_TAB    (line:   4, col:  19):	Found space when expecting tab
 Error: MULT_DECL_LINE       (line:   4, col:  24):	Multiple declarations on a single line
 Error: MULT_DECL_LINE       (line:   6, col:  23):	Multiple declarations on a single line
 Error: MULT_DECL_LINE       (line:   7, col:  25):	Multiple declarations on a single line
@@ -493,7 +492,6 @@ Error: TOO_FEW_TAB          (line:  63, col:   7):	Missing tabs for indent level
 Error: TOO_MANY_INSTR       (line:  63, col:   7):	Too many instructions on a single line
 Error: TOO_MANY_VARS_FUNC   (line:  65, col:   1):	Too many variables declarations in a function
 Error: VAR_DECL_START_FUNC  (line:  65, col:   1):	Variable declaration not at start of function
-Error: MISALIGNED_VAR_DECL  (line:  65, col:  13):	Misaligned variable declaration
 Error: DECL_ASSIGN_LINE     (line:  65, col:  20):	Declaration and assignation on a single line
 Error: TERNARY_FBIDDEN      (line:  65, col:  27):	Ternaries are forbidden
 Error: TERNARY_FBIDDEN      (line:  65, col:  45):	Ternaries are forbidden

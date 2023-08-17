@@ -27,7 +27,6 @@
 [36mtest_file_2007.c[0m - [32mIsBlockEnd[0m In "Function" from "GlobalScope" line 14":
 		<RBRACE> <NEWLINE>
 test_file_2007.c: Error!
-Error: SPACE_REPLACE_TAB    (line:   3, col:   9):	Found space when expecting tab
 Error: LINE_TOO_LONG        (line:   7, col:  82):	line too long
 Error: LINE_TOO_LONG        (line:   8, col:  82):	line too long
 Error: LINE_TOO_LONG        (line:  10, col: 117):	line too long
