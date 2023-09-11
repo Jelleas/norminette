@@ -180,17 +180,9 @@ Error: GLOBAL_VAR_NAMING    (line:  34, col:   9):	Global variable must start wi
 Notice: GLOBAL_VAR_DETECTED  (line:  38, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
 Error: GLOBAL_VAR_NAMING    (line:  38, col:   8):	Global variable must start with g_
 Error: NO_SPC_AFR_PAR       (line:  38, col:  17):	Extra space after parenthesis (brace/bracket)
-Error: SPACE_REPLACE_TAB    (line:  39, col:   4):	Found space when expecting tab
 Error: EXP_PARENTHESIS      (line:  39, col:  10):	Expected parenthesis
 Error: ENUM_TYPE_NAMING     (line:  40, col:   6):	Enum name must start with e_
-Error: MISALIGNED_FUNC_DECL (line:  46, col:  21):	Misaligned function declaration
-Error: MISALIGNED_FUNC_DECL (line:  47, col:  21):	Misaligned function declaration
-Error: MISALIGNED_FUNC_DECL (line:  48, col:  21):	Misaligned function declaration
-Error: MISALIGNED_FUNC_DECL (line:  49, col:  21):	Misaligned function declaration
 Error: SPACE_REPLACE_TAB    (line:  50, col:   2):	Found space when expecting tab
-Error: MISALIGNED_FUNC_DECL (line:  50, col:   9):	Misaligned function declaration
-Error: MISALIGNED_FUNC_DECL (line:  51, col:   9):	Misaligned function declaration
-Error: MISALIGNED_FUNC_DECL (line:  52, col:  17):	Misaligned function declaration
 Error: MISSING_IDENTIFIER   (line:  53, col:  30):	missing type qualifier or identifier in function arguments
 Error: MISSING_IDENTIFIER   (line:  54, col:  26):	missing type qualifier or identifier in function arguments
 Error: CONSECUTIVE_SPC      (line:  57, col:  43):	Two or more consecutives spaces
@@ -198,4 +190,3 @@ Error: SPC_AFTER_OPERATOR   (line:  58, col:  38):	missing space after operator
 Error: SPC_AFTER_POINTER    (line:  60, col:  44):	space after pointer
 Error: SPC_AFTER_POINTER    (line:  61, col:  47):	space after pointer
 Error: SPC_AFTER_POINTER    (line:  61, col:  48):	space after pointer
-Error: MISALIGNED_FUNC_DECL (line:  62, col:  21):	Misaligned function declaration

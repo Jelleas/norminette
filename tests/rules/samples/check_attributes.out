@@ -25,6 +25,4 @@
 		<TAB> <RETURN> <SPACE> <LPARENTHESIS> <IDENTIFIER=sqrt> <LPARENTHESIS> <IDENTIFIER=a> <DOT> <IDENTIFIER=x> <SPACE> <MULT> <SPACE> <IDENTIFIER=a> <DOT> <IDENTIFIER=x> <SPACE> <PLUS> <SPACE> <IDENTIFIER=a> <DOT> <IDENTIFIER=y> <SPACE> <MULT> <SPACE> <IDENTIFIER=a> <DOT> <IDENTIFIER=y> <RPARENTHESIS> <RPARENTHESIS> <SEMI_COLON> <NEWLINE>
 [36mcheck_attributes.c[0m - [32mIsBlockEnd[0m In "Function" from "GlobalScope" line 14":
 		<RBRACE> <NEWLINE>
-check_attributes.c: Error!
-Error: ATTR_EOL             (line:   6, col:   7):	Function attribute must be at the end of line
-Error: MISALIGNED_FUNC_DECL (line:   6, col:  37):	Misaligned function declaration
+check_attributes.c: OK!
